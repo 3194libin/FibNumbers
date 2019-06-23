@@ -10,4 +10,7 @@ class Fibs:
 
 fibs = Fibs()
 for each in fibs:
-    print(each)
+    if each < 20:
+        print(each)
+    else:
+        break
